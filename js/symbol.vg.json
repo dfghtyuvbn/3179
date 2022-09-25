@@ -29,7 +29,7 @@
         "lookup": "properties.name",
         "from": {
           "data": {
-            "url":"https://raw.githubusercontent.com/dfghtyuvbn/3179/main/Assignment/data/all_cause_death.csv"
+            "url":"https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/all_cause_death.csv"
           },
           "key": "STATE",
           "fields": ["Average_Age_Death_Rate","YEAR"]
