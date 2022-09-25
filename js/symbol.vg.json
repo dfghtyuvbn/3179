@@ -24,6 +24,7 @@
       }
     ],
     "transform": [
+      //{"filter": "datum.YEAR == Year"},
       {
         "lookup": "properties.name",
         "from": {
