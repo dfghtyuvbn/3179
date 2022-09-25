@@ -5,7 +5,7 @@
     "height": 400,
     "projection": {"type": "albersUsa"},
     "data": {
-      "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/Assignment/js/America.topojson",
+      "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/js/America.topojson",
       "format": {"type": "topojson", "feature": "states"}
     },
     "params": [
