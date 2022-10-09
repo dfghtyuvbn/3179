@@ -6,19 +6,144 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
-
 </head>
 <body>
-  
-<div id="symbol"></div>
+  <div class="page">
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>Population in the World</h1>
+      </div>
+    </div>
+    <br>
+    <!-- end pure grid group -->
+
+     <!-- pure grid group -->
+     <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          <h2>The changing of population (1950-2021)</h2>
+          <p>
+            Population growth is the increase in the number of people in a population group. Global human population growth amounts to around 83 million annually, or 1.1% per year.
+            The global population has grown from 1 billion in 1800 to 7.9 billion in 2020. The UN projected population to keep growing, and estimates have put the total population at 8.6 billion by mid-2030,
+            9.8 billion by mid-2050 and 11.2 billion by 2100. However, some academics outside the UN have increasingly developed human population models that account for additional downward pressures on population growth;
+            in such a scenario population would peak before 2100.
+            <br><br>
+            A mix of technological advancement that improved agricultural productivity and sanitation and medical advancement that reduced mortality increased population growth. 
+            In some geographies, this has slowed through the process called the demographic transition, where many nations with high standards of living have seen a significant slowing of population growth. 
+            This is in direct contrast with less developed contexts, where population growth is still happening. Globally, the rate of population growth has declined from a peak of 2.2% per year in 1963.
+            
+          </p>
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="area" class="vis-container"></div>
+      </div>
+    </div>
+    <br>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="">
+      <div class="">
+        <h4>Population Density for each Country (persons per square km)</h4>
+        <div id="map" class="vis-container"></div>
+      </div>
+      <div class="">
+        <div class="">
+          <p>
+            According to United Nations population statistics, the world population grew by 30%, or 1.6 billion humans, between 1990 and 2010.
+            In number of people the increase was highest in India (350 million) and China (196 million). 
+            Population growth rate was among highest in the United Arab Emirates (315%) and Qatar (271%)
+          <br><br>
+          Many of the world's countries, including many in Sub-Saharan Africa, the Middle East, South Asia and South East Asia, 
+          have seen a sharp rise in population since the end of the Cold War. The fear is that high population numbers are putting further strain on natural resources, 
+          food supplies, fuel supplies, employment, housing, etc. in some of the less fortunate countries. For example, 
+          the population of Chad has ultimately grown from 6,279,921 in 1993 to 10,329,208 in 2009, further straining its resources. 
+          Vietnam, Mexico, Nigeria, Egypt, Ethiopia, and the DRC are witnessing a similar growth in population.
+        </p>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-3">
+        <div class="description description-left">
+          <h2>Birth Rate and Death Rate for each Country (2021)</h2>
+          <p>
+            The birth rate for a given period is the total number of live human births per population divided by the length of the period in years.
+            <br>
+            Death rate is a measure of the number of deaths (in general, or due to a specific cause) in a particular population, scaled to the size of that population, per unit of time.
+            <br><br>
+            The average global birth rate was 18.1 births per 1,000 total population in 2021. The death rate was 7.7 per 1,000. 
+            The RNI was thus 1.6 percent. In 2012 the average global birth rate was 19.611 according to the World Bank and 19.15 births per 1,000 total population according to the CIA, 
+            compared to 20.09 per 1,000 total population in 2007. The 2021 average of 18.1 births per 1,000 total population equates to approximately 4.3 births per second or about 259 births per 
+            minute for the world.
+          </p>
+        </div>
+      </div>
+      <div class="pure-u-1-3">
+        <div id="scatter2" class="vis-container" style="margin-left: 15px;"></div>
+      </div>
+
+    </div>
+    <!-- end pure grid group -->
+
 
 <script type="text/javascript">
 
-  var spec2 = "js/symbol.vg.json";
-  vegaEmbed('#symbol', spec2).then(function(result) {
+  var spec1 = "js/symbol_map.vg.json";
+  var spec2 = "js/scatter_plot_overview.vg.json";
+  var spec3 = "js/scatter_plot_detail.vg.json";
+  var spec4 = "js/heatmap.vg.json";
+  var spec5 = "js/population.vg.json";
+  var spec6 = "js/income_bar.vg.json";
+  var spec7 = "js/life_line.vg.json";
+
+
+
+  vegaEmbed('#map', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#scatter1', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#scatter2', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#heatmap', spec4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#area', spec5).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#bar', spec6).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#line', spec7).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
