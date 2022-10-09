@@ -1,433 +1,433 @@
-﻿Continent,Year,"Life Expectancy at Birth, both sexes (years)"
-Africa,1950,37.6
-Africa,1951,37.9
-Africa,1952,38.4
-Africa,1953,38.9
-Africa,1954,39.3
-Africa,1955,39.8
-Africa,1956,40.2
-Africa,1957,40
-Africa,1958,40.3
-Africa,1959,41.3
-Africa,1960,41.5
-Africa,1961,41.9
-Africa,1962,42.3
-Africa,1963,42.8
-Africa,1964,43.2
-Africa,1965,43.4
-Africa,1966,43.4
-Africa,1967,43.6
-Africa,1968,44.1
-Africa,1969,44.3
-Africa,1970,44.8
-Africa,1971,45.3
-Africa,1972,45.4
-Africa,1973,46.2
-Africa,1974,46.5
-Africa,1975,46.9
-Africa,1976,47.6
-Africa,1977,48.2
-Africa,1978,48.6
-Africa,1979,49.1
-Africa,1980,49.5
-Africa,1981,49.9
-Africa,1982,50.3
-Africa,1983,49.6
-Africa,1984,49.7
-Africa,1985,50.1
-Africa,1986,50.6
-Africa,1987,50.9
-Africa,1988,50.4
-Africa,1989,51.7
-Africa,1990,51.6
-Africa,1991,51.5
-Africa,1992,51.2
-Africa,1993,51.5
-Africa,1994,50.5
-Africa,1995,52.1
-Africa,1996,52.1
-Africa,1997,52.3
-Africa,1998,51.9
-Africa,1999,52.8
-Africa,2000,53.4
-Africa,2001,53.6
-Africa,2002,54
-Africa,2003,54.4
-Africa,2004,54.9
-Africa,2005,55.5
-Africa,2006,56.1
-Africa,2007,56.7
-Africa,2008,57.3
-Africa,2009,58
-Africa,2010,58.6
-Africa,2011,59.3
-Africa,2012,59.8
-Africa,2013,60.3
-Africa,2014,60.7
-Africa,2015,61.1
-Africa,2016,61.6
-Africa,2017,62
-Africa,2018,62.3
-Africa,2019,62.7
-Africa,2020,62.2
-Africa,2021,61.7
-Asia,1950,42
-Asia,1951,43
-Asia,1952,44.3
-Asia,1953,44.9
-Asia,1954,45.8
-Asia,1955,46.3
-Asia,1956,46.8
-Asia,1957,47.3
-Asia,1958,47.8
-Asia,1959,44.3
-Asia,1960,41.7
-Asia,1961,45.3
-Asia,1962,49.6
-Asia,1963,50.3
-Asia,1964,50.9
-Asia,1965,50.6
-Asia,1966,51.5
-Asia,1967,52.1
-Asia,1968,53
-Asia,1969,53.6
-Asia,1970,53.9
-Asia,1971,53.4
-Asia,1972,55.3
-Asia,1973,55.9
-Asia,1974,56.4
-Asia,1975,56.7
-Asia,1976,57.2
-Asia,1977,58
-Asia,1978,58.5
-Asia,1979,59.1
-Asia,1980,59.6
-Asia,1981,60.1
-Asia,1982,60.6
-Asia,1983,61.1
-Asia,1984,61.5
-Asia,1985,62
-Asia,1986,62.5
-Asia,1987,62.9
-Asia,1988,63.3
-Asia,1989,63.7
-Asia,1990,64
-Asia,1991,64.2
-Asia,1992,64.8
-Asia,1993,65.1
-Asia,1994,65.4
-Asia,1995,65.7
-Asia,1996,66
-Asia,1997,66.4
-Asia,1998,66.9
-Asia,1999,67.2
-Asia,2000,67.6
-Asia,2001,68.1
-Asia,2002,68.5
-Asia,2003,68.9
-Asia,2004,69.2
-Asia,2005,69.6
-Asia,2006,70.1
-Asia,2007,70.3
-Asia,2008,70.5
-Asia,2009,71
-Asia,2010,71.3
-Asia,2011,71.7
-Asia,2012,72
-Asia,2013,72.4
-Asia,2014,72.8
-Asia,2015,73.1
-Asia,2016,73.4
-Asia,2017,73.7
-Asia,2018,74
-Asia,2019,74.2
-Asia,2020,73.7
-Asia,2021,72.5
-Europe,1950,62.8
-Europe,1951,62.8
-Europe,1952,64
-Europe,1953,64.7
-Europe,1954,65.5
-Europe,1955,66
-Europe,1956,66.9
-Europe,1957,66.9
-Europe,1958,68.2
-Europe,1959,68.1
-Europe,1960,68.8
-Europe,1961,69.1
-Europe,1962,68.9
-Europe,1963,69.2
-Europe,1964,69.9
-Europe,1965,69.8
-Europe,1966,70
-Europe,1967,70
-Europe,1968,69.9
-Europe,1969,69.6
-Europe,1970,70
-Europe,1971,70.1
-Europe,1972,70.3
-Europe,1973,70.4
-Europe,1974,70.6
-Europe,1975,70.5
-Europe,1976,70.6
-Europe,1977,70.9
-Europe,1978,70.9
-Europe,1979,71
-Europe,1980,70.9
-Europe,1981,71.2
-Europe,1982,71.5
-Europe,1983,71.5
-Europe,1984,71.6
-Europe,1985,71.7
-Europe,1986,72.5
-Europe,1987,72.7
-Europe,1988,72.8
-Europe,1989,72.9
-Europe,1990,72.9
-Europe,1991,72.9
-Europe,1992,72.7
-Europe,1993,72.1
-Europe,1994,72.1
-Europe,1995,72.2
-Europe,1996,72.7
-Europe,1997,73.2
-Europe,1998,73.6
-Europe,1999,73.4
-Europe,2000,73.5
-Europe,2001,73.8
-Europe,2002,73.8
-Europe,2003,73.8
-Europe,2004,74.4
-Europe,2005,74.5
-Europe,2006,75.2
-Europe,2007,75.6
-Europe,2008,75.8
-Europe,2009,76.3
-Europe,2010,76.5
-Europe,2011,77.1
-Europe,2012,77.3
-Europe,2013,77.6
-Europe,2014,77.9
-Europe,2015,78
-Europe,2016,78.4
-Europe,2017,78.7
-Europe,2018,78.8
-Europe,2019,79.1
-Europe,2020,77.7
-Europe,2021,77
-Latin America and the Caribbean,1950,48.6
-Latin America and the Caribbean,1951,49
-Latin America and the Caribbean,1952,49.8
-Latin America and the Caribbean,1953,50.4
-Latin America and the Caribbean,1954,51.1
-Latin America and the Caribbean,1955,51.7
-Latin America and the Caribbean,1956,52.3
-Latin America and the Caribbean,1957,52.9
-Latin America and the Caribbean,1958,53.5
-Latin America and the Caribbean,1959,54.1
-Latin America and the Caribbean,1960,54.7
-Latin America and the Caribbean,1961,55.2
-Latin America and the Caribbean,1962,55.7
-Latin America and the Caribbean,1963,56.1
-Latin America and the Caribbean,1964,56.6
-Latin America and the Caribbean,1965,57.1
-Latin America and the Caribbean,1966,57.5
-Latin America and the Caribbean,1967,57.9
-Latin America and the Caribbean,1968,58.2
-Latin America and the Caribbean,1969,58.6
-Latin America and the Caribbean,1970,58.6
-Latin America and the Caribbean,1971,59.5
-Latin America and the Caribbean,1972,59.9
-Latin America and the Caribbean,1973,60.4
-Latin America and the Caribbean,1974,60.9
-Latin America and the Caribbean,1975,61.4
-Latin America and the Caribbean,1976,61.6
-Latin America and the Caribbean,1977,62.2
-Latin America and the Caribbean,1978,62.6
-Latin America and the Caribbean,1979,62.9
-Latin America and the Caribbean,1980,63.3
-Latin America and the Caribbean,1981,63.8
-Latin America and the Caribbean,1982,64.1
-Latin America and the Caribbean,1983,64.7
-Latin America and the Caribbean,1984,65.2
-Latin America and the Caribbean,1985,65.5
-Latin America and the Caribbean,1986,66.1
-Latin America and the Caribbean,1987,66.6
-Latin America and the Caribbean,1988,67
-Latin America and the Caribbean,1989,67.4
-Latin America and the Caribbean,1990,67.7
-Latin America and the Caribbean,1991,68
-Latin America and the Caribbean,1992,68.4
-Latin America and the Caribbean,1993,68.7
-Latin America and the Caribbean,1994,69.1
-Latin America and the Caribbean,1995,69.4
-Latin America and the Caribbean,1996,69.8
-Latin America and the Caribbean,1997,70.1
-Latin America and the Caribbean,1998,70.4
-Latin America and the Caribbean,1999,70.8
-Latin America and the Caribbean,2000,71.1
-Latin America and the Caribbean,2001,71.4
-Latin America and the Caribbean,2002,71.8
-Latin America and the Caribbean,2003,71.9
-Latin America and the Caribbean,2004,72.3
-Latin America and the Caribbean,2005,72.7
-Latin America and the Caribbean,2006,72.9
-Latin America and the Caribbean,2007,73
-Latin America and the Caribbean,2008,73.3
-Latin America and the Caribbean,2009,73.5
-Latin America and the Caribbean,2010,73.2
-Latin America and the Caribbean,2011,73.9
-Latin America and the Caribbean,2012,74.1
-Latin America and the Caribbean,2013,74.4
-Latin America and the Caribbean,2014,74.6
-Latin America and the Caribbean,2015,74.6
-Latin America and the Caribbean,2016,74.6
-Latin America and the Caribbean,2017,74.8
-Latin America and the Caribbean,2018,74.9
-Latin America and the Caribbean,2019,75.1
-Latin America and the Caribbean,2020,73.1
-Latin America and the Caribbean,2021,72.2
-Northern America,1950,68
-Northern America,1951,68.2
-Northern America,1952,68.4
-Northern America,1953,68.7
-Northern America,1954,69.5
-Northern America,1955,69.6
-Northern America,1956,69.6
-Northern America,1957,69.4
-Northern America,1958,69.7
-Northern America,1959,69.9
-Northern America,1960,69.9
-Northern America,1961,70.3
-Northern America,1962,70.2
-Northern America,1963,70
-Northern America,1964,70.3
-Northern America,1965,70.4
-Northern America,1966,70.3
-Northern America,1967,70.6
-Northern America,1968,70.4
-Northern America,1969,70.6
-Northern America,1970,70.9
-Northern America,1971,71.3
-Northern America,1972,71.3
-Northern America,1973,71.5
-Northern America,1974,72.1
-Northern America,1975,72.6
-Northern America,1976,72.9
-Northern America,1977,73.3
-Northern America,1978,73.5
-Northern America,1979,73.9
-Northern America,1980,73.8
-Northern America,1981,74.2
-Northern America,1982,74.6
-Northern America,1983,74.7
-Northern America,1984,74.8
-Northern America,1985,74.8
-Northern America,1986,74.9
-Northern America,1987,75
-Northern America,1988,75
-Northern America,1989,75.3
-Northern America,1990,75.6
-Northern America,1991,75.7
-Northern America,1992,76
-Northern America,1993,75.8
-Northern America,1994,75.9
-Northern America,1995,76.1
-Northern America,1996,76.4
-Northern America,1997,76.7
-Northern America,1998,76.9
-Northern America,1999,76.9
-Northern America,2000,77
-Northern America,2001,77.2
-Northern America,2002,77.2
-Northern America,2003,77.4
-Northern America,2004,77.8
-Northern America,2005,77.8
-Northern America,2006,78.1
-Northern America,2007,78.3
-Northern America,2008,78.4
-Northern America,2009,78.8
-Northern America,2010,79
-Northern America,2011,79.1
-Northern America,2012,79.2
-Northern America,2013,79.2
-Northern America,2014,79.3
-Northern America,2015,79.2
-Northern America,2016,79.2
-Northern America,2017,79.1
-Northern America,2018,79.3
-Northern America,2019,79.5
-Northern America,2020,77.9
-Northern America,2021,77.7
-Oceania,1950,61.4
-Oceania,1951,60.6
-Oceania,1952,62
-Oceania,1953,62.7
-Oceania,1954,63
-Oceania,1955,63.4
-Oceania,1956,63.6
-Oceania,1957,64
-Oceania,1958,64.6
-Oceania,1959,64.5
-Oceania,1960,65.1
-Oceania,1961,65.4
-Oceania,1962,65.4
-Oceania,1963,65.7
-Oceania,1964,65.5
-Oceania,1965,65.8
-Oceania,1966,65.8
-Oceania,1967,66.3
-Oceania,1968,66.2
-Oceania,1969,66.7
-Oceania,1970,66.6
-Oceania,1971,67.4
-Oceania,1972,67.8
-Oceania,1973,68
-Oceania,1974,68.1
-Oceania,1975,68.8
-Oceania,1976,68.9
-Oceania,1977,69.4
-Oceania,1978,69.8
-Oceania,1979,70.3
-Oceania,1980,70.5
-Oceania,1981,70.9
-Oceania,1982,70.9
-Oceania,1983,71.5
-Oceania,1984,71.7
-Oceania,1985,71.6
-Oceania,1986,72.1
-Oceania,1987,72.2
-Oceania,1988,72.5
-Oceania,1989,72.5
-Oceania,1990,73.2
-Oceania,1991,73.6
-Oceania,1992,73.6
-Oceania,1993,74
-Oceania,1994,74
-Oceania,1995,74.3
-Oceania,1996,74.3
-Oceania,1997,74.6
-Oceania,1998,74.7
-Oceania,1999,75.1
-Oceania,2000,75.4
-Oceania,2001,75.6
-Oceania,2002,75.5
-Oceania,2003,75.8
-Oceania,2004,76
-Oceania,2005,76.4
-Oceania,2006,76.5
-Oceania,2007,76.5
-Oceania,2008,76.8
-Oceania,2009,77
-Oceania,2010,77.4
-Oceania,2011,77.5
-Oceania,2012,77.7
-Oceania,2013,78
-Oceania,2014,78
-Oceania,2015,78.2
-Oceania,2016,78.4
-Oceania,2017,78.5
-Oceania,2018,78.8
-Oceania,2019,78.7
-Oceania,2020,79.5
-Oceania,2021,79.4
+﻿Continent,Year,"Life Expectancy at Birth, both sexes (years)",Total Deaths (thousands)
+Africa,1950,37.6,6062986
+Africa,1951,37.9,6132451
+Africa,1952,38.4,6154863
+Africa,1953,38.9,6188063
+Africa,1954,39.3,6233523
+Africa,1955,39.8,6257619
+Africa,1956,40.2,6311850
+Africa,1957,40,6490080
+Africa,1958,40.3,6555509
+Africa,1959,41.3,6458970
+Africa,1960,41.5,6552895
+Africa,1961,41.9,6612369
+Africa,1962,42.3,6669906
+Africa,1963,42.8,6723633
+Africa,1964,43.2,6773391
+Africa,1965,43.4,6887077
+Africa,1966,43.4,7054363
+Africa,1967,43.6,7156392
+Africa,1968,44.1,7210043
+Africa,1969,44.3,7328002
+Africa,1970,44.8,7384342
+Africa,1971,45.3,7423189
+Africa,1972,45.4,7572144
+Africa,1973,46.2,7547254
+Africa,1974,46.5,7657616
+Africa,1975,46.9,7723873
+Africa,1976,47.6,7709523
+Africa,1977,48.2,7763576
+Africa,1978,48.6,7841359
+Africa,1979,49.1,7901076
+Africa,1980,49.5,7986043
+Africa,1981,49.9,8055264
+Africa,1982,50.3,8146474
+Africa,1983,49.6,8632791
+Africa,1984,49.7,8773801
+Africa,1985,50.1,8849905
+Africa,1986,50.6,8891338
+Africa,1987,50.9,8943504
+Africa,1988,50.4,9359657
+Africa,1989,51.7,9072295
+Africa,1990,51.6,9278030
+Africa,1991,51.5,9556209
+Africa,1992,51.2,9850229
+Africa,1993,51.5,9906520
+Africa,1994,50.5,10475652
+Africa,1995,52.1,10080149
+Africa,1996,52.1,10281946
+Africa,1997,52.3,10413205
+Africa,1998,51.9,10805981
+Africa,1999,52.8,10633379
+Africa,2000,53.4,10614270
+Africa,2001,53.6,10727599
+Africa,2002,54,10799192
+Africa,2003,54.4,10848609
+Africa,2004,54.9,10875616
+Africa,2005,55.5,10866028
+Africa,2006,56.1,10806686
+Africa,2007,56.7,10784102
+Africa,2008,57.3,10769381
+Africa,2009,58,10679182
+Africa,2010,58.6,10652256
+Africa,2011,59.3,10594121
+Africa,2012,59.8,10561944
+Africa,2013,60.3,10569044
+Africa,2014,60.7,10589947
+Africa,2015,61.1,10646590
+Africa,2016,61.6,10651816
+Africa,2017,62,10694839
+Africa,2018,62.3,10763424
+Africa,2019,62.7,10840634
+Africa,2020,62.2,11390416
+Africa,2021,61.7,12038022
+Asia,1950,42,31626510
+Asia,1951,43,31092766
+Asia,1952,44.3,30549918
+Asia,1953,44.9,30398353
+Asia,1954,45.8,30052709
+Asia,1955,46.3,30023177
+Asia,1956,46.8,29862651
+Asia,1957,47.3,30004413
+Asia,1958,47.8,29771579
+Asia,1959,44.3,34213371
+Asia,1960,41.7,37750030
+Asia,1961,45.3,32762174
+Asia,1962,49.6,28761321
+Asia,1963,50.3,29495051
+Asia,1964,50.9,29429128
+Asia,1965,50.6,30454047
+Asia,1966,51.5,29806171
+Asia,1967,52.1,29450992
+Asia,1968,53,29110966
+Asia,1969,53.6,29048827
+Asia,1970,53.9,29273265
+Asia,1971,53.4,30374567
+Asia,1972,55.3,28421285
+Asia,1973,55.9,28048131
+Asia,1974,56.4,27767736
+Asia,1975,56.7,27668036
+Asia,1976,57.2,27355722
+Asia,1977,58,26717434
+Asia,1978,58.5,26562203
+Asia,1979,59.1,26458567
+Asia,1980,59.6,26530844
+Asia,1981,60.1,26568916
+Asia,1982,60.6,26661273
+Asia,1983,61.1,26548235
+Asia,1984,61.5,26569429
+Asia,1985,62,26651356
+Asia,1986,62.5,26708253
+Asia,1987,62.9,26805184
+Asia,1988,63.3,26923840
+Asia,1989,63.7,26940727
+Asia,1990,64,27124774
+Asia,1991,64.2,27164170
+Asia,1992,64.8,26807017
+Asia,1993,65.1,26747264
+Asia,1994,65.4,26823378
+Asia,1995,65.7,26930793
+Asia,1996,66,27031148
+Asia,1997,66.4,26972889
+Asia,1998,66.9,26867315
+Asia,1999,67.2,27001491
+Asia,2000,67.6,27090733
+Asia,2001,68.1,26959013
+Asia,2002,68.5,27059516
+Asia,2003,68.9,27185293
+Asia,2004,69.2,27564758
+Asia,2005,69.6,27647109
+Asia,2006,70.1,27730676
+Asia,2007,70.3,28092588
+Asia,2008,70.5,28643880
+Asia,2009,71,28678613
+Asia,2010,71.3,28900242
+Asia,2011,71.7,29175558
+Asia,2012,72,29395322
+Asia,2013,72.4,29576076
+Asia,2014,72.8,29720635
+Asia,2015,73.1,29933580
+Asia,2016,73.4,30245777
+Asia,2017,73.7,30770425
+Asia,2018,74,30948894
+Asia,2019,74.2,31476205
+Asia,2020,73.7,33775729
+Asia,2021,72.5,38150400
+Europe,1950,62.8,6473233
+Europe,1951,62.8,6609794
+Europe,1952,64,6265135
+Europe,1953,64.7,6220937
+Europe,1954,65.5,6072645
+Europe,1955,66,5987151
+Europe,1956,66.9,5899594
+Europe,1957,66.9,5963269
+Europe,1958,68.2,5647571
+Europe,1959,68.1,5816056
+Europe,1960,68.8,5783828
+Europe,1961,69.1,5749292
+Europe,1962,68.9,6023706
+Europe,1963,69.2,6031219
+Europe,1964,69.9,5843514
+Europe,1965,69.8,6058752
+Europe,1966,70,6074808
+Europe,1967,70,6204646
+Europe,1968,69.9,6427622
+Europe,1969,69.6,6652543
+Europe,1970,70,6602177
+Europe,1971,70.1,6675051
+Europe,1972,70.3,6699913
+Europe,1973,70.4,6814598
+Europe,1974,70.6,6818259
+Europe,1975,70.5,7009188
+Europe,1976,70.6,7085837
+Europe,1977,70.9,7039667
+Europe,1978,70.9,7183531
+Europe,1979,71,7268744
+Europe,1980,70.9,7422720
+Europe,1981,71.2,7404116
+Europe,1982,71.5,7373734
+Europe,1983,71.5,7562097
+Europe,1984,71.6,7584914
+Europe,1985,71.7,7702883
+Europe,1986,72.5,7423641
+Europe,1987,72.7,7407417
+Europe,1988,72.8,7475880
+Europe,1989,72.9,7527904
+Europe,1990,72.9,7681197
+Europe,1991,72.9,7796555
+Europe,1992,72.7,7935829
+Europe,1993,72.1,8412609
+Europe,1994,72.1,8492472
+Europe,1995,72.2,8553348
+Europe,1996,72.7,8394631
+Europe,1997,73.2,8240385
+Europe,1998,73.6,8193143
+Europe,1999,73.4,8402774
+Europe,2000,73.5,8401888
+Europe,2001,73.8,8364598
+Europe,2002,73.8,8520890
+Europe,2003,73.8,8655471
+Europe,2004,74.4,8381363
+Europe,2005,74.5,8494391
+Europe,2006,75.2,8237212
+Europe,2007,75.6,8187820
+Europe,2008,75.8,8195293
+Europe,2009,76.3,8099043
+Europe,2010,76.5,8128387
+Europe,2011,77.1,7958960
+Europe,2012,77.3,8078292
+Europe,2013,77.6,8033963
+Europe,2014,77.9,7955740
+Europe,2015,78,8177599
+Europe,2016,78.4,8009194
+Europe,2017,78.7,8076159
+Europe,2018,78.8,8112356
+Europe,2019,79.1,8020246
+Europe,2020,77.7,9119281
+Europe,2021,77,9656398
+Latin America and the Caribbean,1950,48.6,2925484
+Latin America and the Caribbean,1951,49,2938142
+Latin America and the Caribbean,1952,49.8,2925067
+Latin America and the Caribbean,1953,50.4,2924775
+Latin America and the Caribbean,1954,51.1,2914769
+Latin America and the Caribbean,1955,51.7,2920958
+Latin America and the Caribbean,1956,52.3,2912713
+Latin America and the Caribbean,1957,52.9,2922277
+Latin America and the Caribbean,1958,53.5,2912317
+Latin America and the Caribbean,1959,54.1,2918863
+Latin America and the Caribbean,1960,54.7,2918475
+Latin America and the Caribbean,1961,55.2,2917620
+Latin America and the Caribbean,1962,55.7,2928345
+Latin America and the Caribbean,1963,56.1,2945502
+Latin America and the Caribbean,1964,56.6,2945236
+Latin America and the Caribbean,1965,57.1,2955451
+Latin America and the Caribbean,1966,57.5,2962074
+Latin America and the Caribbean,1967,57.9,2969226
+Latin America and the Caribbean,1968,58.2,2978028
+Latin America and the Caribbean,1969,58.6,2991863
+Latin America and the Caribbean,1970,58.6,3053103
+Latin America and the Caribbean,1971,59.5,2990200
+Latin America and the Caribbean,1972,59.9,3006769
+Latin America and the Caribbean,1973,60.4,2995795
+Latin America and the Caribbean,1974,60.9,3004211
+Latin America and the Caribbean,1975,61.4,2993822
+Latin America and the Caribbean,1976,61.6,3038075
+Latin America and the Caribbean,1977,62.2,3020116
+Latin America and the Caribbean,1978,62.6,3040233
+Latin America and the Caribbean,1979,62.9,3063067
+Latin America and the Caribbean,1980,63.3,3074936
+Latin America and the Caribbean,1981,63.8,3065318
+Latin America and the Caribbean,1982,64.1,3080425
+Latin America and the Caribbean,1983,64.7,3049091
+Latin America and the Caribbean,1984,65.2,3045618
+Latin America and the Caribbean,1985,65.5,3052299
+Latin America and the Caribbean,1986,66.1,3015633
+Latin America and the Caribbean,1987,66.6,3006117
+Latin America and the Caribbean,1988,67,2999552
+Latin America and the Caribbean,1989,67.4,3007602
+Latin America and the Caribbean,1990,67.7,3026889
+Latin America and the Caribbean,1991,68,3030644
+Latin America and the Caribbean,1992,68.4,3040612
+Latin America and the Caribbean,1993,68.7,3054100
+Latin America and the Caribbean,1994,69.1,3057785
+Latin America and the Caribbean,1995,69.4,3083556
+Latin America and the Caribbean,1996,69.8,3092912
+Latin America and the Caribbean,1997,70.1,3108958
+Latin America and the Caribbean,1998,70.4,3144973
+Latin America and the Caribbean,1999,70.8,3148606
+Latin America and the Caribbean,2000,71.1,3172244
+Latin America and the Caribbean,2001,71.4,3205777
+Latin America and the Caribbean,2002,71.8,3222576
+Latin America and the Caribbean,2003,71.9,3281836
+Latin America and the Caribbean,2004,72.3,3299804
+Latin America and the Caribbean,2005,72.7,3308268
+Latin America and the Caribbean,2006,72.9,3359578
+Latin America and the Caribbean,2007,73,3434053
+Latin America and the Caribbean,2008,73.3,3478654
+Latin America and the Caribbean,2009,73.5,3535176
+Latin America and the Caribbean,2010,73.2,3694621
+Latin America and the Caribbean,2011,73.9,3653166
+Latin America and the Caribbean,2012,74.1,3707735
+Latin America and the Caribbean,2013,74.4,3750384
+Latin America and the Caribbean,2014,74.6,3806243
+Latin America and the Caribbean,2015,74.6,3906059
+Latin America and the Caribbean,2016,74.6,4038449
+Latin America and the Caribbean,2017,74.8,4104061
+Latin America and the Caribbean,2018,74.9,4190846
+Latin America and the Caribbean,2019,75.1,4257246
+Latin America and the Caribbean,2020,73.1,5066101
+Latin America and the Caribbean,2021,72.2,5534706
+Northern America,1950,68,1551914
+Northern America,1951,68.2,1584821
+Northern America,1952,68.4,1600065
+Northern America,1953,68.7,1617795
+Northern America,1954,69.5,1578409
+Northern America,1955,69.6,1626378
+Northern America,1956,69.6,1664674
+Northern America,1957,69.4,1734402
+Northern America,1958,69.7,1743261
+Northern America,1959,69.9,1761238
+Northern America,1960,69.9,1811029
+Northern America,1961,70.3,1803051
+Northern America,1962,70.2,1859954
+Northern America,1963,70,1919639
+Northern America,1964,70.3,1903538
+Northern America,1965,70.4,1934819
+Northern America,1966,70.3,1971776
+Northern America,1967,70.6,1962477
+Northern America,1968,70.4,2042421
+Northern America,1969,70.6,2037933
+Northern America,1970,70.9,2039147
+Northern America,1971,71.3,2042695
+Northern America,1972,71.3,2082468
+Northern America,1973,71.5,2095236
+Northern America,1974,72.1,2062564
+Northern America,1975,72.6,2021315
+Northern America,1976,72.9,2038122
+Northern America,1977,73.3,2028796
+Northern America,1978,73.5,2057578
+Northern America,1979,73.9,2048416
+Northern America,1980,73.8,2125573
+Northern America,1981,74.2,2118094
+Northern America,1982,74.6,2118371
+Northern America,1983,74.7,2163107
+Northern America,1984,74.8,2186179
+Northern America,1985,74.8,2240801
+Northern America,1986,74.9,2263021
+Northern America,1987,75,2282056
+Northern America,1988,75,2334058
+Northern America,1989,75.3,2318068
+Northern America,1990,75.6,2317754
+Northern America,1991,75.7,2343136
+Northern America,1992,76,2350968
+Northern America,1993,75.8,2452749
+Northern America,1994,75.9,2467228
+Northern America,1995,76.1,2504956
+Northern America,1996,76.4,2510626
+Northern America,1997,76.7,2515385
+Northern America,1998,76.9,2541299
+Northern America,1999,76.9,2599266
+Northern America,2000,77,2608888
+Northern America,2001,77.2,2623558
+Northern America,2002,77.2,2657397
+Northern America,2003,77.4,2665221
+Northern America,2004,77.8,2618741
+Northern America,2005,77.8,2673100
+Northern America,2006,78.1,2651559
+Northern America,2007,78.3,2656053
+Northern America,2008,78.4,2709416
+Northern America,2009,78.8,2676852
+Northern America,2010,79,2710578
+Northern America,2011,79.1,2762957
+Northern America,2012,79.2,2793608
+Northern America,2013,79.2,2852080
+Northern America,2014,79.3,2885075
+Northern America,2015,79.2,2964800
+Northern America,2016,79.2,2987878
+Northern America,2017,79.1,3049504
+Northern America,2018,79.3,3064891
+Northern America,2019,79.5,3063270
+Northern America,2020,77.9,3544380
+Northern America,2021,77.7,3579160
+Oceania,1950,61.4,148409
+Oceania,1951,60.6,156578
+Oceania,1952,62,151564
+Oceania,1953,62.7,149160
+Oceania,1954,63,150750
+Oceania,1955,63.4,150816
+Oceania,1956,63.6,155091
+Oceania,1957,64,154629
+Oceania,1958,64.6,152499
+Oceania,1959,64.5,158553
+Oceania,1960,65.1,157420
+Oceania,1961,65.4,158676
+Oceania,1962,65.4,163172
+Oceania,1963,65.7,164523
+Oceania,1964,65.5,170620
+Oceania,1965,65.8,169708
+Oceania,1966,65.8,174380
+Oceania,1967,66.3,171756
+Oceania,1968,66.2,178895
+Oceania,1969,66.7,175711
+Oceania,1970,66.6,182094
+Oceania,1971,67.4,178251
+Oceania,1972,67.8,179228
+Oceania,1973,68,179346
+Oceania,1974,68.1,183535
+Oceania,1975,68.8,176528
+Oceania,1976,68.9,180369
+Oceania,1977,69.4,176334
+Oceania,1978,69.8,175041
+Oceania,1979,70.3,173727
+Oceania,1980,70.5,176497
+Oceania,1981,70.9,176477
+Oceania,1982,70.9,181683
+Oceania,1983,71.5,178559
+Oceania,1984,71.7,181345
+Oceania,1985,71.6,188194
+Oceania,1986,72.1,185216
+Oceania,1987,72.2,189809
+Oceania,1988,72.5,191188
+Oceania,1989,72.5,197596
+Oceania,1990,73.2,191051
+Oceania,1991,73.6,191345
+Oceania,1992,73.6,196963
+Oceania,1993,74,195794
+Oceania,1994,74,202723
+Oceania,1995,74.3,202660
+Oceania,1996,74.3,207507
+Oceania,1997,74.6,208355
+Oceania,1998,74.7,209053
+Oceania,1999,75.1,211093
+Oceania,2000,75.4,211796
+Oceania,2001,75.6,214737
+Oceania,2002,75.5,221876
+Oceania,2003,75.8,222042
+Oceania,2004,76,224765
+Oceania,2005,76.4,224460
+Oceania,2006,76.5,230140
+Oceania,2007,76.5,237200
+Oceania,2008,76.8,241038
+Oceania,2009,77,241323
+Oceania,2010,77.4,243110
+Oceania,2011,77.5,249038
+Oceania,2012,77.7,252882
+Oceania,2013,78,252900
+Oceania,2014,78,259935
+Oceania,2015,78.2,264406
+Oceania,2016,78.4,267501
+Oceania,2017,78.5,270970
+Oceania,2018,78.8,271264
+Oceania,2019,78.7,280924
+Oceania,2020,79.5,278401
+Oceania,2021,79.4,289468

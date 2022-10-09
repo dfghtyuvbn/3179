@@ -1,0 +1,433 @@
+﻿Continent,Year,Total Deaths (thousands)
+Africa,1950,8266.22
+Africa,1951,8137.64
+Africa,1952,7626.53
+Africa,1953,7612.57
+Africa,1954,7381.63
+Africa,1955,7402.53
+Africa,1956,7569.90
+Africa,1957,7692.51
+Africa,1958,7419.21
+Africa,1959,7540.61
+Africa,1960,7624.67
+Africa,1961,7557.54
+Africa,1962,7840.12
+Africa,1963,7894.98
+Africa,1964,7711.62
+Africa,1965,7901.87
+Africa,1966,7884.00
+Africa,1967,7925.45
+Africa,1968,8206.10
+Africa,1969,8328.34
+Africa,1970,8273.94
+Africa,1971,8289.69
+Africa,1972,8304.35
+Africa,1973,8416.96
+Africa,1974,8356.26
+Africa,1975,8395.59
+Africa,1976,8444.85
+Africa,1977,8329.99
+Africa,1978,8441.89
+Africa,1979,8400.48
+Africa,1980,8628.96
+Africa,1981,8557.05
+Africa,1982,8533.27
+Africa,1983,8740.35
+Africa,1984,8660.87
+Africa,1985,8864.01
+Africa,1986,8841.46
+Africa,1987,8797.23
+Africa,1988,8910.07
+Africa,1989,8932.52
+Africa,1990,9000.14
+Africa,1991,9061.67
+Africa,1992,9050.58
+Africa,1993,9270.48
+Africa,1994,9206.56
+Africa,1995,9366.06
+Africa,1996,9348.37
+Africa,1997,9312.41
+Africa,1998,9374.97
+Africa,1999,9506.22
+Africa,2000,9390.36
+Africa,2001,9376.10
+Africa,2002,9497.91
+Africa,2003,9678.85
+Africa,2004,9461.48
+Africa,2005,9650.33
+Africa,2006,9552.78
+Africa,2007,9650.73
+Africa,2008,9776.29
+Africa,2009,9760.05
+Africa,2010,9884.63
+Africa,2011,9993.26
+Africa,2012,10198.02
+Africa,2013,10265.12
+Africa,2014,10275.47
+Africa,2015,10677.50
+Africa,2016,10654.92
+Africa,2017,10897.02
+Africa,2018,10960.33
+Africa,2019,10939.46
+Africa,2020,12095.51
+Africa,2021,12299.93
+Asia,1950,36611.38
+Asia,1951,36687.48
+Asia,1952,36632.73
+Asia,1953,36544.80
+Asia,1954,36319.16
+Asia,1955,36247.46
+Asia,1956,35896.41
+Asia,1957,36073.20
+Asia,1958,35822.15
+Asia,1959,40362.05
+Asia,1960,43897.80
+Asia,1961,38958.05
+Asia,1962,35034.59
+Asia,1963,35789.33
+Asia,1964,35749.54
+Asia,1965,36875.81
+Asia,1966,36358.30
+Asia,1967,36196.48
+Asia,1968,35901.73
+Asia,1969,36005.48
+Asia,1970,36310.80
+Asia,1971,37420.39
+Asia,1972,35539.17
+Asia,1973,35182.00
+Asia,1974,34956.21
+Asia,1975,34958.23
+Asia,1976,34744.81
+Asia,1977,34143.36
+Asia,1978,34075.47
+Asia,1979,34112.62
+Asia,1980,34229.61
+Asia,1981,34339.40
+Asia,1982,34480.16
+Asia,1983,34431.33
+Asia,1984,34554.11
+Asia,1985,34641.41
+Asia,1986,34526.81
+Asia,1987,34738.14
+Asia,1988,34932.42
+Asia,1989,35047.62
+Asia,1990,35418.98
+Asia,1991,35653.64
+Asia,1992,35601.08
+Asia,1993,36017.24
+Asia,1994,36360.40
+Asia,1995,36443.43
+Asia,1996,36522.23
+Asia,1997,36473.38
+Asia,1998,36422.37
+Asia,1999,36766.75
+Asia,2000,37072.04
+Asia,2001,37074.47
+Asia,2002,37346.46
+Asia,2003,37624.09
+Asia,2004,37953.11
+Asia,2005,38037.98
+Asia,2006,38002.43
+Asia,2007,38313.84
+Asia,2008,38854.95
+Asia,2009,38804.60
+Asia,2010,39111.43
+Asia,2011,39095.69
+Asia,2012,39255.03
+Asia,2013,39427.03
+Asia,2014,39587.94
+Asia,2015,39865.79
+Asia,2016,40200.32
+Asia,2017,40703.24
+Asia,2018,40997.46
+Asia,2019,41585.63
+Asia,2020,45401.74
+Asia,2021,50981.87
+Europe,1950,18477.38
+Europe,1951,18283.88
+Europe,1952,18169.48
+Europe,1953,17922.34
+Europe,1954,17759.98
+Europe,1955,17687.76
+Europe,1956,17251.71
+Europe,1957,17321.56
+Europe,1958,16987.84
+Europe,1959,21530.66
+Europe,1960,24909.38
+Europe,1961,19838.91
+Europe,1962,15775.65
+Europe,1963,16393.07
+Europe,1964,16255.11
+Europe,1965,16105.83
+Europe,1966,15913.25
+Europe,1967,15683.20
+Europe,1968,15739.73
+Europe,1969,15740.15
+Europe,1970,15589.09
+Europe,1971,15181.68
+Europe,1972,14891.53
+Europe,1973,14552.41
+Europe,1974,14282.46
+Europe,1975,14034.23
+Europe,1976,13793.88
+Europe,1977,13556.36
+Europe,1978,13463.35
+Europe,1979,13482.40
+Europe,1980,13525.99
+Europe,1981,13515.24
+Europe,1982,13581.15
+Europe,1983,13519.69
+Europe,1984,13632.78
+Europe,1985,13702.17
+Europe,1986,13599.30
+Europe,1987,13739.81
+Europe,1988,13881.55
+Europe,1989,13998.75
+Europe,1990,14293.70
+Europe,1991,14311.59
+Europe,1992,14284.11
+Europe,1993,14559.93
+Europe,1994,14771.24
+Europe,1995,14740.07
+Europe,1996,14713.57
+Europe,1997,14678.01
+Europe,1998,14645.15
+Europe,1999,15037.46
+Europe,2000,15187.41
+Europe,2001,15074.79
+Europe,2002,15341.39
+Europe,2003,15561.44
+Europe,2004,15656.52
+Europe,2005,15828.06
+Europe,2006,15821.58
+Europe,2007,15974.45
+Europe,2008,16218.04
+Europe,2009,16236.12
+Europe,2010,16453.20
+Europe,2011,16509.53
+Europe,2012,16644.48
+Europe,2013,16798.65
+Europe,2014,17018.52
+Europe,2015,17257.85
+Europe,2016,17527.48
+Europe,2017,17873.61
+Europe,2018,17888.63
+Europe,2019,18132.33
+Europe,2020,19826.79
+Europe,2021,21180.53
+Latin America and the Caribbean,1950,18134.00
+Latin America and the Caribbean,1951,18403.60
+Latin America and the Caribbean,1952,18463.25
+Latin America and the Caribbean,1953,18622.46
+Latin America and the Caribbean,1954,18559.19
+Latin America and the Caribbean,1955,18559.70
+Latin America and the Caribbean,1956,18644.70
+Latin America and the Caribbean,1957,18751.65
+Latin America and the Caribbean,1958,18834.32
+Latin America and the Caribbean,1959,18831.39
+Latin America and the Caribbean,1960,18988.42
+Latin America and the Caribbean,1961,19119.14
+Latin America and the Caribbean,1962,19258.93
+Latin America and the Caribbean,1963,19396.25
+Latin America and the Caribbean,1964,19494.44
+Latin America and the Caribbean,1965,20769.98
+Latin America and the Caribbean,1966,20445.05
+Latin America and the Caribbean,1967,20513.28
+Latin America and the Caribbean,1968,20162.00
+Latin America and the Caribbean,1969,20265.34
+Latin America and the Caribbean,1970,20721.71
+Latin America and the Caribbean,1971,22238.71
+Latin America and the Caribbean,1972,20647.63
+Latin America and the Caribbean,1973,20629.59
+Latin America and the Caribbean,1974,20673.76
+Latin America and the Caribbean,1975,20924.00
+Latin America and the Caribbean,1976,20950.93
+Latin America and the Caribbean,1977,20586.99
+Latin America and the Caribbean,1978,20612.12
+Latin America and the Caribbean,1979,20630.22
+Latin America and the Caribbean,1980,20703.62
+Latin America and the Caribbean,1981,20824.16
+Latin America and the Caribbean,1982,20899.02
+Latin America and the Caribbean,1983,20911.64
+Latin America and the Caribbean,1984,20921.33
+Latin America and the Caribbean,1985,20939.24
+Latin America and the Caribbean,1986,20927.51
+Latin America and the Caribbean,1987,20998.33
+Latin America and the Caribbean,1988,21050.87
+Latin America and the Caribbean,1989,21048.87
+Latin America and the Caribbean,1990,21125.28
+Latin America and the Caribbean,1991,21342.05
+Latin America and the Caribbean,1992,21316.97
+Latin America and the Caribbean,1993,21457.32
+Latin America and the Caribbean,1994,21589.16
+Latin America and the Caribbean,1995,21703.36
+Latin America and the Caribbean,1996,21808.67
+Latin America and the Caribbean,1997,21795.38
+Latin America and the Caribbean,1998,21777.22
+Latin America and the Caribbean,1999,21729.29
+Latin America and the Caribbean,2000,21884.63
+Latin America and the Caribbean,2001,21999.69
+Latin America and the Caribbean,2002,22005.07
+Latin America and the Caribbean,2003,22062.65
+Latin America and the Caribbean,2004,22296.59
+Latin America and the Caribbean,2005,22209.92
+Latin America and the Caribbean,2006,22180.85
+Latin America and the Caribbean,2007,22339.39
+Latin America and the Caribbean,2008,22636.91
+Latin America and the Caribbean,2009,22568.48
+Latin America and the Caribbean,2010,22658.22
+Latin America and the Caribbean,2011,22586.15
+Latin America and the Caribbean,2012,22610.55
+Latin America and the Caribbean,2013,22628.39
+Latin America and the Caribbean,2014,22569.42
+Latin America and the Caribbean,2015,22607.95
+Latin America and the Caribbean,2016,22672.84
+Latin America and the Caribbean,2017,22829.63
+Latin America and the Caribbean,2018,23108.83
+Latin America and the Caribbean,2019,23453.30
+Latin America and the Caribbean,2020,25574.95
+Latin America and the Caribbean,2021,29801.33
+Northern America,1950,3830.85
+Northern America,1951,3607.74
+Northern America,1952,3304.67
+Northern America,1953,3257.98
+Northern America,1954,3217.31
+Northern America,1955,3232.21
+Northern America,1956,3255.76
+Northern America,1957,3417.38
+Northern America,1958,3456.09
+Northern America,1959,3340.16
+Northern America,1960,3368.49
+Northern America,1961,3405.58
+Northern America,1962,3448.22
+Northern America,1963,3512.08
+Northern America,1964,3520.79
+Northern America,1965,3599.09
+Northern America,1966,3718.37
+Northern America,1967,3710.78
+Northern America,1968,3757.73
+Northern America,1969,3817.97
+Northern America,1970,3868.74
+Northern America,1971,3893.93
+Northern America,1972,4038.44
+Northern America,1973,4001.70
+Northern America,1974,4102.16
+Northern America,1975,4159.35
+Northern America,1976,4138.70
+Northern America,1977,4192.57
+Northern America,1978,4261.55
+Northern America,1979,4317.74
+Northern America,1980,4373.44
+Northern America,1981,4408.21
+Northern America,1982,4463.91
+Northern America,1983,4877.52
+Northern America,1984,5040.34
+Northern America,1985,5092.21
+Northern America,1986,5030.66
+Northern America,1987,5007.67
+Northern America,1988,5349.25
+Northern America,1989,4989.25
+Northern America,1990,5104.41
+Northern America,1991,5269.66
+Northern America,1992,5429.60
+Northern America,1993,5378.67
+Northern America,1994,5845.79
+Northern America,1995,5438.45
+Northern America,1996,5536.80
+Northern America,1997,5563.32
+Northern America,1998,5850.26
+Northern America,1999,5601.86
+Northern America,2000,5513.72
+Northern America,2001,5503.95
+Northern America,2002,5507.61
+Northern America,2003,5414.10
+Northern America,2004,5410.94
+Northern America,2005,5383.88
+Northern America,2006,5314.43
+Northern America,2007,5279.97
+Northern America,2008,5246.96
+Northern America,2009,5183.21
+Northern America,2010,5170.03
+Northern America,2011,5137.22
+Northern America,2012,5165.88
+Northern America,2013,5168.42
+Northern America,2014,5170.31
+Northern America,2015,5162.98
+Northern America,2016,5138.75
+Northern America,2017,5153.40
+Northern America,2018,5180.72
+Northern America,2019,5202.84
+Northern America,2020,5455.23
+Northern America,2021,5730.95
+Oceania,1950,80.09
+Oceania,1951,81.70
+Oceania,1952,82.69
+Oceania,1953,83.73
+Oceania,1954,84.71
+Oceania,1955,83.91
+Oceania,1956,84.50
+Oceania,1957,85.98
+Oceania,1958,85.28
+Oceania,1959,84.23
+Oceania,1960,82.72
+Oceania,1961,82.02
+Oceania,1962,83.49
+Oceania,1963,83.18
+Oceania,1964,83.48
+Oceania,1965,83.08
+Oceania,1966,82.90
+Oceania,1967,82.79
+Oceania,1968,82.41
+Oceania,1969,83.09
+Oceania,1970,80.65
+Oceania,1971,79.94
+Oceania,1972,79.85
+Oceania,1973,79.70
+Oceania,1974,79.29
+Oceania,1975,79.60
+Oceania,1976,79.30
+Oceania,1977,80.01
+Oceania,1978,81.02
+Oceania,1979,82.76
+Oceania,1980,84.61
+Oceania,1981,83.52
+Oceania,1982,84.61
+Oceania,1983,84.68
+Oceania,1984,85.97
+Oceania,1985,87.82
+Oceania,1986,88.17
+Oceania,1987,91.05
+Oceania,1988,92.43
+Oceania,1989,94.80
+Oceania,1990,96.18
+Oceania,1991,97.09
+Oceania,1992,100.36
+Oceania,1993,102.65
+Oceania,1994,106.48
+Oceania,1995,107.53
+Oceania,1996,111.36
+Oceania,1997,110.06
+Oceania,1998,114.17
+Oceania,1999,121.78
+Oceania,2000,123.69
+Oceania,2001,140.77
+Oceania,2002,129.47
+Oceania,2003,141.44
+Oceania,2004,139.52
+Oceania,2005,141.17
+Oceania,2006,146.21
+Oceania,2007,147.27
+Oceania,2008,159.47
+Oceania,2009,162.32
+Oceania,2010,163.10
+Oceania,2011,167.64
+Oceania,2012,170.86
+Oceania,2013,173.88
+Oceania,2014,183.87
+Oceania,2015,186.76
+Oceania,2016,206.63
+Oceania,2017,212.30
+Oceania,2018,213.16
+Oceania,2019,210.60
+Oceania,2020,221.83
+Oceania,2021,235.41
