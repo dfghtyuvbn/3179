@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Population Change (thousands) through years",
+    "data": {
+        "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/World.csv"
+    },
+    "vconcat": [{
+      "width": 480,
+      "height": 360,
+      "mark": {
+        "type": "area",
+        "line": {
+          "color": "darkblue"
+        },
+        "color": {
+          "x1": 1,
+          "y1": 1,
+          "x2": 1,
+          "y2": 0,
+          "gradient": "linear",
+          "stops": [
+            {
+              "offset": 0,
+              "color": "white"
+            },
+            {
+              "offset": 1,
+              "color": "darkblue"
+            }
+          ]
+        }
+      },
+      "encoding": {
+          "x": {
+              "timeUnit": "year", "field": "Year",
+              "type": "temporal",
+              "title":"",
+              "scale": {"domain": {"param": "brush"}}
+          },
+          "y": {
+              "field": "Population Change (thousands)",
+              "type": "quantitative"
+          }
+      }
+    }, {
+      "width": 480,
+      "height": 60,
+      "mark": "line",
+      "params": [{
+        "name": "brush",
+        "select": {"type": "interval", "encodings": ["x"]}
+      }],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y"},
+        "title":"Year"
+      },
+      "y": {
+        "aggregate": "min", "field": "Population Change (thousands)",
+        "title": ""
+      },
+      "color": {"value":"#08306b"}
+      }
+    }
+]
+}
+  

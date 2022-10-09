@@ -1,0 +1,157 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 520,
+  "height": 400,
+  "title": "Birth and Death Rate per Population",
+  "data": {
+    "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Country.csv"
+  },
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 100000000,
+        "step": 1000000,
+        "name": "Minimum Population: "
+      }
+    },
+    {
+      "name": "Continent_Selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels":[
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform":[
+    {"filter": "datum.Births > 0"},
+    {"filter": "datum.Deaths > 0"},
+    {"filter": "Continent_Selection == null || datum.Continent ==  Continent_Selection"}, 
+    {"filter": "datum.Population * 1000 > Population_Above"},
+    {"calculate": "datum.Population * 1000", "as": "Population_"},
+    {"calculate": "datum.Births * 1000", "as": "Births_"},
+    {"calculate": "datum.Deaths * 1000", "as": "Deaths_"},
+    {"calculate": "datum.Births/datum.Population", "as": "Birth_Rate"},
+    {"calculate": "datum.Deaths/datum.Population", "as": "Death_Rate"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "Birth_Rate",
+      "type": "quantitative",
+      "title":"Birth Rate",
+      "axis": {"tickCount": 7},
+      "scale": {"type": "linear",  "domain":[0, 0.05]}
+      },
+      "y": {
+      "field": "Death_Rate",
+      "type": "quantitative",
+      "title":"Death Rate",
+      "axis": { "tickCount": 6},
+      "scale": {"type": "linear", "domain":[0, 0.025]}
+      }
+    },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Population_",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+            "range"  : [10, 50, 150, 200, 300, 400] 
+          },
+          "legend": {"format": ".1s"}
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#1b9e77",
+              "#d95f02",
+              "#7570b3",
+              "#e7298a",
+              "#66a61e",
+              "#e6ab02"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Population_", "type": "quantitative", "format": ",","title":"Population"},
+          {"field": "Birth_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Births"},
+          {"field": "Death_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Deaths"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Malaysia' || datum['Country'] == 'Niger' || datum['Country'] == 'Qatar' || datum['Country'] == 'Bulgaria' || datum['Country'] == 'Italy' || datum['Country'] == 'Nigeria' ||  datum['Country'] == 'United States'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Population_", "type": "quantitative", "format": ",","title":"Population"},
+          {"field": "Birth_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Births"},
+          {"field": "Death_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Deaths"}
+        ]
+      }
+    }
+  ]
+}

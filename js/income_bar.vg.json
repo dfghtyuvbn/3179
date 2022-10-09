@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Income_.csv"
+  },
+  "params": [{
+    "name": "Year_selection",
+    "value": 2021,
+    "bind": {
+        "input": "range",
+        "min": 1951,
+        "max": 2021,
+        "step": 1,
+        "name": "Year:  "
+    }
+}
+],
+"transform": [
+{ "filter": "datum.Year == Year_selection" }
+],
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelPadding": 4
+      },
+      "sort":["High-income","Upper-middle-income"]
+    },
+    "x": {
+      "field": "Migrants",
+      "type": "quantitative",
+      "scale": {"padding": 20},
+      "axis": {
+        "gridColor": {
+          "condition": {"test": "datum.value === 0", "value": "black"},
+          "value": "#ddd"
+        }
+      },
+      "title": "Number of Migrants"
+    }
+  },
+  "layer": [
+    {"mark": "bar"},
+    {
+      "mark": {
+        "type": "text",
+        "align": {"expr": "datum.Migrants < 0 ? 'right' : 'left'"},
+        "dx": {"expr": "datum.Migrants < 0 ? -2 : 2"}
+      },
+      "encoding": {"text": {"field": "Migrants", "type": "quantitative"}}
+    }
+  ]
+}

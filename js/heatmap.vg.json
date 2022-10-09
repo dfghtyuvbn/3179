@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Life_Expectancy.csv"
+      },
+    "mark": "rect",
+    "encoding": {
+      "y": {"field": "Continent", "type": "nominal"},
+      "x": {"field": "Year", "type": "ordinal"},
+      "color": {"aggregate": "min", "field": "Life Expectancy at Birth, both sexes (years)"}
+    },
+    "config": {
+      "axis": {"grid": true, "tickBand": "extent"}
+    }
+  }
+  

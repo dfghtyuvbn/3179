@@ -1,0 +1,82 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": 500,
+    "width": 500,
+    "title": "Detail",
+    "data": {
+      "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Life_Expectancy.csv"
+    },
+    "layer": [
+        {
+        "encoding": {
+            "x": {"field": "Year", "type": "temporal"},
+            "y": {"field": "Life Expectancy at Birth, both sexes (years)", "type": "quantitative"},
+            "color": {"field": "Continent", "type": "nominal"}
+        },
+        "layer": [
+            {"mark": "line"},
+            {
+            "params": [{
+                "name": "label",
+                "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+                }
+            }],
+            "mark": "point",
+            "encoding": {
+                "opacity": {
+                "condition": {
+                    "param": "label",
+                    "empty": false,
+                    "value": 1
+                },
+                "value": 0
+                }
+            }
+            }
+        ]
+        },
+        {
+        "transform": [{"filter": {"param": "label", "empty": false}}],
+        "layer": [
+            {
+            "mark": {"type": "rule", "color": "gray"},
+            "encoding": {
+                "x": {
+                    "type": "temporal", 
+                    "field": "Year", 
+                    "aggregate": "min"}
+            }
+            },
+            {
+            "encoding": {
+                "text": {"type": "quantitative", "field": "Life Expectancy at Birth, both sexes (years)"},
+                "x": {"type": "temporal", "field": "Year"},
+                "y": {"type": "quantitative", "field": "Life Expectancy at Birth, both sexes (years)"}
+            },
+            "layer": [
+                {
+                "mark": {
+                    "type": "text",
+                    "stroke": "white",
+                    "strokeWidth": 2,
+                    "align": "left",
+                    "dx": 5,
+                    "dy": -5
+                }
+                },
+                {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+                "encoding": {
+                    "color": {"type": "nominal", "field": "Continent"}
+                }
+                }
+            ]
+            }
+        ]
+        }
+    ]
+}

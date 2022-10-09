@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": 400,
+    "width": 300,
+    "title": "Overview",
+    "data": {
+      "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Continent_.csv"
+    },
+    "transform":[
+      {"filter": "datum.Births > 0"},
+      {"filter": "datum.Deaths > 0"},
+      {"calculate": "datum.Population * 1000", "as": "Population_"},
+      {"calculate": "datum.Births * 1000", "as": "Births_"},
+      {"calculate": "datum.Deaths * 1000", "as": "Deaths_"},
+      {"calculate": "datum.Births/datum.Population", "as": "Birth_Rate"},
+      {"calculate": "datum.Deaths/datum.Population", "as": "Death_Rate"}
+    ],
+    "mark": "point",
+    "encoding": {
+      "x": {
+        "field": "Birth_Rate",
+        "type": "quantitative",
+        "title":"Birth Rate",
+        "axis": {"tickCount": 7},
+        "scale": {"type": "linear",  "domain":[0, 0.04]}
+      },
+      "y": {
+        "field": "Death_Rate",
+        "type": "quantitative",
+        "title":"Death Rate",
+        "axis": { "tickCount": 6},
+        "scale": {"type": "linear", "domain":[0, 0.015]}
+      },
+      "size": {
+        "field": "Population_", 
+        "type": "quantitative",  
+        "scale": {"range": [250, 2500]},
+        "legend":{"format": ".1s"}
+  },
+      "fill": {"field": "Continent",  "type": "nominal","scale": {"domain":["North America", "South America", "Europe", "Africa", "Asia", "Oceania"], "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8", "#a65628"]}},
+      "color": {"field": "Continent", "type": "nominal","scale": {"domain":["North America", "South America", "Europe", "Africa", "Asia", "Oceania"], "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8", "#a65628"]}
+      },
+
+      "tooltip": [
+        {"field": "Continent", "type": "nominal", "title":"Continent"},
+        {"field": "Population_", "type": "quantitative", "format": ",","title":"Total Population"},
+        {"field": "Birth_Rate", "type": "quantitative", "format": ".4f"},
+        {"field": "Death_Rate", "type": "quantitative", "format": ".4f"}
+      ]
+  
+    }
+  }
+  
