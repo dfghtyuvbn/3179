@@ -4,8 +4,11 @@
     "data": {
         "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/World.csv"
     },
+    "config": {
+      "background":"white"
+    },
     "vconcat": [{
-      "width": 480,
+      "width": 580,
       "height": 360,
       "mark": {
         "type": "area",
@@ -43,7 +46,7 @@
           }
       }
     }, {
-      "width": 480,
+      "width": 580,
       "height": 60,
       "mark": "line",
       "params": [{

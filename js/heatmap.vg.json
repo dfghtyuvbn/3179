@@ -3,11 +3,13 @@
     "data": {
         "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Life_Expectancy.csv"
       },
+    "width": 900,
+    "height": 100,
     "mark": "rect",
     "encoding": {
       "y": {"field": "Continent", "type": "nominal"},
       "x": {"field": "Year", "type": "ordinal"},
-      "color": {"aggregate": "min", "field": "Life Expectancy at Birth, both sexes (years)"}
+      "color": {"aggregate": "min", "field": "Life Expectancy at Birth, both sexes (years)", "title":"Life Expectancy (Year)"}
     },
     "config": {
       "axis": {"grid": true, "tickBand": "extent"}

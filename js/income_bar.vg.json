@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "",
-  "width": 800,
-  "height": 500,
+  "width": 480,
+  "height": 360,
   "data": {
     "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Income_.csv"
   },
@@ -43,7 +43,7 @@
           "value": "#ddd"
         }
       },
-      "title": "Number of Migrants"
+      "title": "Number of Migrants (thousands)"
     }
   },
   "layer": [
