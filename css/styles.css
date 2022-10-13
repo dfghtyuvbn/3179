@@ -12,15 +12,18 @@ body *{
   }
   
   h1 {
-	font-weight: 900;
+	font-weight: 1200;
+  font-size: 40px;
+  text-align: center;
   }
   
   body {
-	background-color: lightgray;
+	background-color: lightgrey;
   }
   
   .page {
-	width: 1050px;
+  margin: 0 auto;
+	width: 1280px;
 	background-color: white;
 	margin: auto;
 	padding: 50px;
