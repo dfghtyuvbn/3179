@@ -20,6 +20,8 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
 </head>
+
+<title>FIT3179</title>
 <div class="bgimg">
     <div class="page">
       <!-- pure grid group -->
@@ -70,13 +72,13 @@
       <!-- end pure grid group -->
 
       <!-- pure grid group -->
-      <div class="">
         <div class="">
           <h4 class="">Population Density for each Country (persons per square km)</h4>
           <div id="map" class="vis-container"></div>
         </div>
-        <div class="">
-          <div class="">
+        <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div class="description description-left">
             <p>
               <text class="bold">Population density</text> is the number of individuals living within that specific location, or the number of individuals divided by the size of the area. Population density is a great measurement
               to compare the people between country since country with large area will always have more people but does that means that they are more crowded? Hence, population density will normalise
@@ -85,7 +87,12 @@
               According to United Nations population statistics, the world population grew by 30%, or 1.6 billion humans, between 1990 and 2010.
               In number of people the increase was highest in <text class="bold">India</text> <text class = "green">(350 million) </text>and <text class="bold">China</text> <text class = "green">(196 million)</text>. 
               Population growth rate was among highest in the <text class="bold">United Arab Emirates</text> <text class = "green">(315%)</text> and <text class="bold">Qatar</text> <text class = "green">(271%)</text>
-              <br><br>
+            </p>
+          </div>
+        </div>
+        <div class = "pure-u-1-2">
+          <div class="description description-right">
+            <p>
               Many of the world's countries, including many in Sub-Saharan Africa, the Middle East, South Asia and South East Asia, 
               have seen a sharp rise in population since the end of the Cold War  (1991). The fear is that high population numbers are putting further strain on natural resources, 
               food supplies, fuel supplies, employment, housing, etc. in some of the less fortunate countries. For example, 
@@ -95,7 +102,6 @@
           </div>
         </div>
       </div>
-      <br><br><br><br><br>
       <!-- end pure grid group -->
     </div>
 
@@ -151,10 +157,11 @@
             <h2 class="blue">Immigration Rate for Different Income Country Group (1950-2021)</h2>
             <p>
               The <text class="bold">net migration rate</text> is the difference between the number of immigrants (people coming into an area) and the number of emigrants (people leaving an area) 
-              throughout the year. When the number of immigrants is larger than the number of emigrants, a <text class="green">positive net</text> migration rate occurs. 
-              A positive net migration rate indicates that there are more people entering than leaving an area. When more emigrate from a country, 
-              the result is a <text class="red">negative net</text> migration rate, meaning that more people are leaving than entering the area. When there is an equal number of immigrants and emigrants, 
-              the net migration rate is balanced.
+              throughout the year. <br><br>
+              When the number of immigrants is larger than the number of emigrants, a <text class="green">positive net</text> migration rate occurs. 
+              A positive net migration rate indicates that there are more people entering than leaving an area. <br><br>
+              When more emigrate from a country, the result is a <text class="red">negative net</text> migration rate, meaning that more people are leaving than entering the area. <br><br>
+              When there is an equal number of immigrants and emigrants, the <text class="bold">net migration rate is balanced</text>.
             </p>
           </div>
         </div>
@@ -178,31 +185,31 @@
 
 
 
-  vegaEmbed('#map', spec1).then(function(result) {
+  vegaEmbed('#map', spec1, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#scatter1', spec2).then(function(result) {
+  vegaEmbed('#scatter1', spec2, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#scatter2', spec3).then(function(result) {
+  vegaEmbed('#scatter2', spec3,{ "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#heatmap', spec4).then(function(result) {
+  vegaEmbed('#heatmap', spec4, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#area', spec5).then(function(result) {
+  vegaEmbed('#area', spec5, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#bar', spec6).then(function(result) {
+  vegaEmbed('#bar', spec6, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#line', spec7).then(function(result) {
+  vegaEmbed('#line', spec7, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
