@@ -121,8 +121,8 @@
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": "Population_", "type": "quantitative", "format": ",","title":"Population"},
-          {"field": "Birth_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Births"},
-          {"field": "Death_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Deaths"}
+          {"field": "Birth_Rate", "type": "quantitative", "format": ".4f", "title":"Birth Rate"},
+          {"field": "Death_Rate", "type": "quantitative", "format": ".4f", "title":"Death Rate"}
         ]
       }
     },
@@ -140,7 +140,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'China' || datum['Country'] == 'Malaysia' || datum['Country'] == 'Mayotte' || datum['Country'] == 'Qatar' || datum['Country'] == 'Bulgaria' || datum['Country'] == 'Italy' || datum['Country'] == 'Nigeria' ||  datum['Country'] == 'United States'",
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Mayotte' || datum['Country'] == 'Qatar' || datum['Country'] == 'Bulgaria' || datum['Country'] == 'Italy' || datum['Country'] == 'Nigeria' ||  datum['Country'] == 'United States'",
             "value": 1
           },
           "value": 0
@@ -148,8 +148,8 @@
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": "Population_", "type": "quantitative", "format": ",","title":"Population"},
-          {"field": "Birth_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Births"},
-          {"field": "Death_Rate", "type": "quantitative", "format": ".4f", "title":"Number of Deaths"}
+          {"field": "Birth_Rate", "type": "quantitative", "format": ".4f", "title":"Birth Rate"},
+          {"field": "Death_Rate", "type": "quantitative", "format": ".4f", "title":"Death Rate"}
         ]
       }
     }

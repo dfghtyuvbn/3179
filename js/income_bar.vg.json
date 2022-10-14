@@ -3,6 +3,7 @@
   "description": "",
   "width": 480,
   "height": 360,
+  "title": "Number of immigrants from different income group through year (1950-2021)",
   "data": {
     "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Income_.csv"
   },
@@ -43,7 +44,7 @@
           "value": "#ddd"
         }
       },
-      "title": "Number of Migrants (thousands)"
+      "title": "Number of Immigrants (thousands)"
     }
   },
   "layer": [

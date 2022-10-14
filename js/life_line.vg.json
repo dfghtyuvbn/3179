@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "height": 360,
     "width": 480,
-    "title": "Detail",
+    "title": "Life Expectancy through Year",
     "data": {
       "url": "https://raw.githubusercontent.com/dfghtyuvbn/3179/main/data/Life_Expectancy.csv"
     },
