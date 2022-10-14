@@ -20,129 +20,151 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
 </head>
-<body>
-  <div class="page">
-
-    <!-- pure grid group -->
-    <h1>Population in the World</h1>
-    <br><br>
-    <!-- end pure grid group -->
-
-     <!-- pure grid group -->
-     <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div class="description description-left">
-          <h2>The changing of population (1950-2021)</h2>
-          <p>
-            Population growth is the increase in the number of people in a population group. Global human population growth amounts to around 83 million annually, or 1.1% per year.
-            The global population has grown from 1 billion in 1800 to 7.9 billion in 2020. The UN projected population to keep growing, and estimates have put the total population at 8.6 billion by mid-2030,
-            9.8 billion by mid-2050 and 11.2 billion by 2100. However, some academics outside the UN have increasingly developed human population models that account for additional downward pressures on population growth;
-            in such a scenario population would peak before 2100.
-            <br><br>
-            A mix of technological advancement that improved agricultural productivity and sanitation and medical advancement that reduced mortality increased population growth. 
-            In some geographies, this has slowed through the process called the demographic transition, where many nations with high standards of living have seen a significant slowing of population growth. 
-            This is in direct contrast with less developed contexts, where population growth is still happening. Globally, the rate of population growth has declined from a peak of 2.2% per year in 1963.
-            
-          </p>
+<div class="bgimg">
+    <div class="page">
+      <!-- pure grid group -->
+      <h1 class="blue">Population in the World</h1>
+      <p>
+        In <a href="https://en.wikipedia.org/wiki/Demography">demographics</a>, the term world population is often used to refer to <text class="bold">the total number of humans currently living</text>, and was estimated to have exceeded 7.9 billion as of September 2022.
+        It took over two million years of human prehistory and history for the human population to reach one billion and only 207 years more to grow to 7 billion.<br>
+      </p>
+        <text class = "big-font">The <text class="bold">changing of population</text> in a population group can go two ways, which is <text class= "green">increase</text> or <text class= "red">decrease</text>:</text>
+        <li class="small-font">Population growth, or the <text class= "green">increase</text> in the number of people in a population group 
+        is mainly caused by two reason which is Birth rate (People giving birth) and Immigration Rate (People moving in to the country when the rate is 
+        <text class= "green">positive</text>)</li>
+        <li class="small-font">Population decline, or the <text class= "red">decrease</text> in the number of people in a population group 
+          is also mainly caused by two reason which is Death rate (People passing away) and Immigration Rate (People moving out from the country when the rate is
+          <text class= "red">negative</text>)</li>
+      <p>
+        <text class="bold">Life Expectancy</text> also has an effect on population. The increase of life expectancy will decrease the death rate, which ultimately will increase the population size in the World.
+      </p>
+      
+      <!-- end pure grid group -->
+    </div>
+    
+    <div class="page">
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div class="description description-left">
+            <h2 class="blue">The changing of population (1950-2021)</h2>
+            <p>
+              Population growth is the <text class= "green">increase</text> in the number of people in a population group. Global human population growth amounts to around 83 million annually, or 1.1% per year.
+              The global population growth rate has grown from 43 million in 1950 to 65 million in 2021. The population growth has reached it peak at around <text class="bold">92 million</text> in 1990. Since then, the growth rate started to
+              drop.
+              <br><br>
+              A mix of technological advancement that improved agricultural productivity and sanitation and medical advancement that <text class="bold">reduced mortality and <text class = "green">increased</text> population growth </text>. 
+              In some geographies, this has slowed through the process called the demographic transition, where many nations with high standards of living have seen a significant slowing of population growth. 
+              This is in direct contrast with less developed contexts, where population growth is still happening. Globally, the rate of population growth has started to <text class= "red">decline</text> from its peak since 1990.
+              <br><br>
+              A significant drop in population growth can be seen at the end of the timeline. One of the main reason for population decline is that <text class="bold">the levels of fertility kept <text class = "red">falling</text></text>. 
+              Besides that, <text class="bold">global pandemic</text> is also one of the reason for population decline.
+            </p>
+          </div>
+        </div>
+        <div class="pure-u-1-2">
+          <div id="area" class="vis-container"></div>
         </div>
       </div>
-      <div class="pure-u-1-2">
-        <div id="area" class="vis-container"></div>
-      </div>
-    </div>
-    <br>
-    <!-- end pure grid group -->
+      <br>
+      <!-- end pure grid group -->
 
-    <!-- pure grid group -->
-    <div class="">
-      <div class="">
-        <h4>Population Density for each Country (persons per square km)</h4>
-        <div id="map" class="vis-container"></div>
-      </div>
+      <!-- pure grid group -->
       <div class="">
         <div class="">
-          <p>
-            According to United Nations population statistics, the world population grew by 30%, or 1.6 billion humans, between 1990 and 2010.
-            In number of people the increase was highest in India (350 million) and China (196 million). 
-            Population growth rate was among highest in the United Arab Emirates (315%) and Qatar (271%)
-          <br><br>
-          Many of the world's countries, including many in Sub-Saharan Africa, the Middle East, South Asia and South East Asia, 
-          have seen a sharp rise in population since the end of the Cold War. The fear is that high population numbers are putting further strain on natural resources, 
-          food supplies, fuel supplies, employment, housing, etc. in some of the less fortunate countries. For example, 
-          the population of Chad has ultimately grown from 6,279,921 in 1993 to 10,329,208 in 2009, further straining its resources. 
-          Vietnam, Mexico, Nigeria, Egypt, Ethiopia, and the DRC are witnessing a similar growth in population.
-        </p>
+          <h4 class="">Population Density for each Country (persons per square km)</h4>
+          <div id="map" class="vis-container"></div>
+        </div>
+        <div class="">
+          <div class="">
+            <p>
+              <text class="bold">Population density</text> is the number of individuals living within that specific location, or the number of individuals divided by the size of the area. Population density is a great measurement
+              to compare the people between country since country with large area will always have more people but does that means that they are more crowded? Hence, population density will normalise
+              the data and give us the detail of it.
+              <br><br>
+              According to United Nations population statistics, the world population grew by 30%, or 1.6 billion humans, between 1990 and 2010.
+              In number of people the increase was highest in <text class="bold">India</text> <text class = "green">(350 million) </text>and <text class="bold">China</text> <text class = "green">(196 million)</text>. 
+              Population growth rate was among highest in the <text class="bold">United Arab Emirates</text> <text class = "green">(315%)</text> and <text class="bold">Qatar</text> <text class = "green">(271%)</text>
+              <br><br>
+              Many of the world's countries, including many in Sub-Saharan Africa, the Middle East, South Asia and South East Asia, 
+              have seen a sharp rise in population since the end of the Cold War  (1991). The fear is that high population numbers are putting further strain on natural resources, 
+              food supplies, fuel supplies, employment, housing, etc. in some of the less fortunate countries. For example, 
+              the population density of Chad has ultimately <text class="bold"><text class = "green">grown</text> from 4.8 in 1991 to 13.6 in 2021</text>, further straining its resources. 
+              Vietnam, Mexico, Nigeria, Egypt, Ethiopia, and the DRC are witnessing a similar growth in population.
+          </p>
+          </div>
         </div>
       </div>
+      <br><br><br><br><br>
+      <!-- end pure grid group -->
     </div>
-    <br><br><br><br><br>
-    <!-- end pure grid group -->
 
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div class="description description-left">
-          <h2>Birth Rate and Death Rate for each Country (2021)</h2>
-          <div id="scatter2" class="vis-container" style="margin-left: 10px;"></div>
-          <br><br><br>
-          <p>
-            The birth rate for a given period is the total number of live human births per population divided by the length of the period in years.
-            <br>
-            Death rate is a measure of the number of deaths (in general, or due to a specific cause) in a particular population, scaled to the size of that population, per unit of time.
+    <div class="page">
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div class="description description-left">
+            <h2 class="blue">Birth Rate and Death Rate for each Country (2021)</h2>
+            <div id="scatter2" class="vis-container" style="margin-left: 10px;"></div>
+            <br><br><br>
+            <p>
+              The <text class="bold">birth rate</text> for a given period is the total number of live human births per population divided by the length of the period in years.
+              <br>
+              Death rate is a measure of the number of deaths (in general, or due to a specific cause) in a particular population, scaled to the size of that population, per unit of time.
+              <br><br>
+              The average global birth rate was 18.1 births per 1,000 total population in 2021. The death rate was 7.7 per 1,000. 
+              The RNI was thus 1.6 percent. In 2012 the average global birth rate was 19.611 according to the World Bank and 19.15 births per 1,000 total population according to the CIA, 
+              compared to 20.09 per 1,000 total population in 2007. The 2021 average of 18.1 births per 1,000 total population equates to approximately 4.3 births per second or about 259 births per 
+              minute for the world.
+            </p>
+          </div>
+        </div>
+        <div class="pure-u-1-2">
+          <div class="description description-right">
+            <h2 class="blue">Life Expectancy for Each Continent (1950-2021)</h2>
+            <div id="line" class="vis-container" style="margin-right: 10px;"></div>
             <br><br>
-            The average global birth rate was 18.1 births per 1,000 total population in 2021. The death rate was 7.7 per 1,000. 
-            The RNI was thus 1.6 percent. In 2012 the average global birth rate was 19.611 according to the World Bank and 19.15 births per 1,000 total population according to the CIA, 
-            compared to 20.09 per 1,000 total population in 2007. The 2021 average of 18.1 births per 1,000 total population equates to approximately 4.3 births per second or about 259 births per 
-            minute for the world.
+            <p>
+              <text class="bold">Life expectancy</text> is a measure of premature death and it shows large differences in health across the world.
+              Life expectancy is the key metric for assessing population health. Broader than the narrow metric of the infant and child mortality,
+              which focus solely at mortality at a young age, life expectancy captures the mortality along the entire life course. 
+              It tells us the average age of death in a population.
+            <br><br>
+            Since 1950 the global average life expectancy has more than 1.5 times and is now above 70 years. 
+            The inequality of life expectancy is still very large across and within continents. 
+            In 2021, the continent with the lowest life expectancy is the Africa with around 61 years, in Ocenia life expectancy is around 20 years longer.
+            <br><br>
+            Globally the life expectancy increased from an average of 53 to 73 years in 2021.
           </p>
         </div>
       </div>
-      <div class="pure-u-1-2">
-        <div class="description description-right">
-          <h2>Life Expectency for Each Continent (1950-2021)</h2>
-          <div id="line" class="vis-container" style="margin-right: 10px;"></div>
-          <br><br>
-          <p>
-            Life expectancy is a measure of premature death and it shows large differences in health across the world.
-            Life expectancy is the key metric for assessing population health. Broader than the narrow metric of the infant and child mortality,
-             which focus solely at mortality at a young age, life expectancy captures the mortality along the entire life course. 
-             It tells us the average age of death in a population.
-          <br><br>
-          Since 1900 the global average life expectancy has more than doubled and is now above 70 years. 
-          The inequality of life expectancy is still very large across and within continents. 
-          In 2019, the continent with the lowest life expectancy is the Africa with around 53 years, in Japan life expectancy is 30 years longer.
-          <br>
-          Globally the life expectancy increased from an average of 29 to 73 years in 2019.
-        </p>
+      <!-- end pure grid group -->
       </div>
     </div>
-    <!-- end pure grid group -->
-   
 
 
-    
-    <br><br><br><br><br>
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div class="description description-right">
-          <br><br><br><br><br>
-          <h2>Immigration Rate for Different Income Country Group (1950-2021)</h2>
-          <p>
-            The net migration rate is the difference between the number of immigrants (people coming into an area) and the number of emigrants (people leaving an area) 
-            throughout the year. When the number of immigrants is larger than the number of emigrants, a positive net migration rate occurs. 
-            A positive net migration rate indicates that there are more people entering than leaving an area. When more emigrate from a country, 
-            the result is a negative net migration rate, meaning that more people are leaving than entering the area. When there is an equal number of immigrants and emigrants, 
-            the net migration rate is balanced.
-          </p>
+    <div class="page">
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div class="description description-right">
+            <h2 class="blue">Immigration Rate for Different Income Country Group (1950-2021)</h2>
+            <p>
+              The <text class="bold">net migration rate</text> is the difference between the number of immigrants (people coming into an area) and the number of emigrants (people leaving an area) 
+              throughout the year. When the number of immigrants is larger than the number of emigrants, a <text class="green">positive net</text> migration rate occurs. 
+              A positive net migration rate indicates that there are more people entering than leaving an area. When more emigrate from a country, 
+              the result is a <text class="red">negative net</text> migration rate, meaning that more people are leaving than entering the area. When there is an equal number of immigrants and emigrants, 
+              the net migration rate is balanced.
+            </p>
+          </div>
+        </div>
+        <div class="pure-u-1-2">
+          <div id="bar" class="vis-container" style="margin-left: 15px;"></div>
         </div>
       </div>
-      <div class="pure-u-1-2">
-        <br><br><br><br><br>
-        <div id="bar" class="vis-container" style="margin-left: 15px;"></div>
+      <!-- end pure grid group -->
       </div>
-    </div>
-    <!-- end pure grid group -->
+</div>
 
 <script type="text/javascript">
 
@@ -185,5 +207,5 @@
   }).catch(console.error);
 </script>
 
-</body>
+</div>
 </html>
