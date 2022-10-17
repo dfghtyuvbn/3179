@@ -54,7 +54,7 @@
                           "domain": [10, 30, 60, 100],
                           "range": ["#d0d1e6", "#74a9cf","#3690c0","#0570b0","#034e7b"]
                       },
-                      "legend": { "format": ".2s", "title": "Number of People" }
+                      "legend": { "format": ".2s", "title": "Population Density" }
                   },
                   "tooltip": [
                     { "field": "Country", "type": "nominal", "title": "Country" },
